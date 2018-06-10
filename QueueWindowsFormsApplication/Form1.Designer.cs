@@ -46,7 +46,7 @@
             // 
             // QueueTextBox
             // 
-            this.QueueTextBox.Location = new System.Drawing.Point(363, 64);
+            this.QueueTextBox.Location = new System.Drawing.Point(237, 64);
             this.QueueTextBox.Multiline = true;
             this.QueueTextBox.Name = "QueueTextBox";
             this.QueueTextBox.ReadOnly = true;
@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(490, 31);
+            this.label1.Location = new System.Drawing.Point(368, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 1;
@@ -105,7 +105,7 @@
             // 
             // ClearQueueTextBox
             // 
-            this.ClearQueueTextBox.Location = new System.Drawing.Point(363, 367);
+            this.ClearQueueTextBox.Location = new System.Drawing.Point(237, 367);
             this.ClearQueueTextBox.Name = "ClearQueueTextBox";
             this.ClearQueueTextBox.Size = new System.Drawing.Size(304, 23);
             this.ClearQueueTextBox.TabIndex = 6;
@@ -179,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 459);
+            this.ClientSize = new System.Drawing.Size(580, 459);
             this.Controls.Add(this.ClearQueue);
             this.Controls.Add(this.PrintQueue);
             this.Controls.Add(this.GetUserFromQueue);

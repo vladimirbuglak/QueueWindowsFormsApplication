@@ -101,6 +101,8 @@ namespace QueueWindowsFormsApplication
 
         private void ClearQueue_Click(object sender, EventArgs e)
         {
+            QueueTextBox.Text += $"--Clear-- {Environment.NewLine}";
+
             Queue.Clear();
         }
     }
