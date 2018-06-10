@@ -81,15 +81,22 @@ namespace QueueWindowsFormsApplication
 
         private void AddUser_Click(object sender, EventArgs e)
         {
-            QueueTextBox.Text += $"--Add user-- {Environment.NewLine}";
+            var userName = UserName.Text;
+            var userAge = UserAge.Text;
 
-            Queue.Enqueue(new User
+            if (!string.IsNullOrEmpty(userAge) && !string.IsNullOrEmpty(userName))
             {
-                Name = UserName.Text,
-                Age = int.Parse(UserAge.Text)
-            });
+                QueueTextBox.Text += $"--Add user-- {Environment.NewLine}";
 
-            QueueTextBox.Text += Queue.ToString();
+                Queue.Enqueue(new User
+                {
+                    Name = userName,
+                    Age = int.Parse(userAge)
+                });
+
+                QueueTextBox.Text += Queue.ToString();
+            }
+
         }
 
         private void PrintQueue_Click(object sender, EventArgs e)

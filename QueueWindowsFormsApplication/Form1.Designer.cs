@@ -157,7 +157,7 @@
             // 
             // PrintQueue
             // 
-            this.PrintQueue.Location = new System.Drawing.Point(25, 210);
+            this.PrintQueue.Location = new System.Drawing.Point(22, 180);
             this.PrintQueue.Name = "PrintQueue";
             this.PrintQueue.Size = new System.Drawing.Size(156, 23);
             this.PrintQueue.TabIndex = 12;
@@ -167,7 +167,7 @@
             // 
             // ClearQueue
             // 
-            this.ClearQueue.Location = new System.Drawing.Point(25, 181);
+            this.ClearQueue.Location = new System.Drawing.Point(22, 209);
             this.ClearQueue.Name = "ClearQueue";
             this.ClearQueue.Size = new System.Drawing.Size(156, 23);
             this.ClearQueue.TabIndex = 13;
