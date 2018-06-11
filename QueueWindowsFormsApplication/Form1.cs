@@ -23,7 +23,7 @@ namespace QueueWindowsFormsApplication
         {
             QueueTextBox.Text += $"--Create queue-- {Environment.NewLine}";
 
-            Queue = GenerateRandomQueue(5);
+            Queue = GenerateRandomQueue(10);
 
             QueueTextBox.Text += Queue.ToString();
         }
